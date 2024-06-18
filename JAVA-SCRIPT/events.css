@@ -1,0 +1,10 @@
+#one{
+    height: 100px;
+    width:100px;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+}
+.two{
+    background-color: green;
+}

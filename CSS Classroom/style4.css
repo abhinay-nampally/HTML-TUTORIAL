@@ -1,0 +1,33 @@
+#navbar{
+    background-color: #0f1111;
+    height:60px;
+}
+#main{
+    color:#f08804;
+    font-size:25px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin-right: 200px;
+}
+button{
+    background-color:#f08804;
+    color:white;
+}
+#one{
+    height:100px;
+    width:100px;
+    border:black;
+    display:inline-block;
+    
+    
+}
+footer{
+    color:white;
+    height:25px;
+    text-align: center;
+}
+#pj{
+    height: 500px;
+}

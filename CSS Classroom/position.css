@@ -1,0 +1,35 @@
+div{
+    border:2px solid black;
+    background-color: aqua;
+    color:black;
+    display: inline-block;
+    /* position:static; */
+    
+    
+    height: 100px;
+    width: 100px;
+}
+/* two{
+    /* position:relative;
+    left:20px;
+    top:20px; */
+    /* position:absolute;
+    top:10px;
+}
+#three{
+    position:static;
+    top:0px;
+}
+#four{
+    position:static;
+    top:0px;
+#
+}  */
+#two{
+    position:absolute;
+    top:50px;
+    z-index: -1;
+}
+#four{
+    z-index: 1;
+}

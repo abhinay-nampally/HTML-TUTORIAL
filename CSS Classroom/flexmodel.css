@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+}
+div{
+    display: inline-block;
+    border: 2px solid black;
+    height: 75px;
+    width:100px;
+    
+    
+}
+#container{
+    height:500px;
+    width:1000px;
+    display: flex;
+    flex-direction:row;
+    /* justify-content:flex-start; */
+    /* justify-content: flex-end; */
+    justify-content:center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap:wrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    
+
+    /* align-content: flex-start; */
+}
+#one{
+    background-color: aliceblue;
+    /* height: 100px;
+    width:100px;
+    display: inline-block; */
+    flex-grow: 1;
+    
+}
+#two{
+    background-color: aqua;
+    /* height: 100px;
+    width:100px;
+    display: inline-block;*/
+/* align */
+    /* -self: flex-end; */
+    flex-grow: 1;
+}
+#three{
+    background-color: blueviolet;
+    /* align-self: flex-end; */
+    /* height: 100px;
+    width:100px;
+    display: inline-block; */
+}
+#four{
+    background-color: yellow;
+    /* height: 100px;
+    width:100px;
+    display: inline-block; */
+}
+#five{
+    background-color: orange;
+    /* height: 100px;
+    width:100px;
+    display: inline-block; */
+    /* align-self: flex-end;*/
+} 

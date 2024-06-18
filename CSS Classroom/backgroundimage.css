@@ -1,0 +1,31 @@
+div{
+    border: 2px solid black;
+    background-color: aqua;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    /* background-image: url(nature.jpg.jpg);
+    background-size: cover; */
+}
+#one{
+    background-image: url(nature.jpg.jpg);
+    background-size: cover;
+}
+#two{
+    background-image: url(nature.jpg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#three{
+    background-image:url(nature.jpg.jpg);
+    background-size:auto;
+
+}
+body{
+    background-image: url(playground.jpg);
+    background-size: cover;
+    
+}
+h1{
+    color: white;
+}

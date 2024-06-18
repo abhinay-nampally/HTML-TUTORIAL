@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif ;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("nature.jpg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+   
+        width: 420px;
+        background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 30px;
+
+}
+ .wrapper h2{
+    font-size: 36px;
+    
+   
+    text-align: center;
+}
+.wrapper .input-field{
+    height: 50px;
+position: relative;
+    width: 100%;
+    
+    
+    margin: 30px 0;
+
+
+}
+ .input-field  input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    color:white;
+    padding: 20px 35px 20px 20px;
+    font-size: 15px;
+}
+.input-field  input::placeholder{
+    color: #ffffff;
+
+}
+#one {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    transition:translate(-50);
+    font-size: 20px;
+
+}
+.wrapper .remainder-forget{
+    display: flex;
+    justify-content: space-between;
+    padding: -15px 0px 15px;
+    font-size: 14.5px;
+    margin-top: 3px;
+
+}
+.remainder-forget label input{
+    accent-color: white;
+    margin-top: 0px;
+}
+.remainder-forget a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.remainder-forget a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.last{
+    font-size: 14px;
+    margin: 20px 0 15px;
+    text-align: center;
+}
+.last p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600px;
+}
+.last p a:hover{
+    text-decoration: underline;
+
+}

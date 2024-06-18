@@ -1,0 +1,25 @@
+/* div{
+    height:100px;
+    width:100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+#navbar{
+    height:70px;
+    background-color: black;
+}
+a{
+    color:white;
+}
+button{
+     background-color:#f08804;
+     color:white;
+}
+#main{
+    font-size:25px;
+    color:#f08804;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}

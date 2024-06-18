@@ -1,0 +1,16 @@
+#one{
+    height:300px;
+    width:500px;
+    background-color: green;
+    font-size: 20px;
+
+}
+#two{
+    height:100px;
+    
+    background-color: yellow;
+    
+    font-size: 2em;
+    width:4vw;
+    height:50vh;
+}
